@@ -17,7 +17,7 @@
                 <?php 
                 if (!isset($_SESSION['connect'])|| (empty($_SESSION['connect']))){ ?>
                 <ul class="navbar-nav mr-auto">
-                    <li class="nav-item <?php if($title=='Accueil'){ ?> active" <?php }; ?>>
+                    <li class="nav-item">
                         <a class="nav-link" href="/projet-wis/index.php">Accueil</a>
                     </li>
                     <li class="nav-item">
@@ -33,7 +33,7 @@
                     <li class="nav-item">
                         <a class="nav-link" href="index.php">Accueil</a>
                     </li>
-                    <li class="nav-item <?php if($title='Événements'){ ?> active" <?php }; ?>>
+                    <li class="nav-item">
                         <a class="nav-link" href="event.php">Événements</a>
                     </li>
                     <li class="nav-item dropdown">
