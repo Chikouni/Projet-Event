@@ -4,7 +4,7 @@
     define("DBHOST", "localhost");  //soit localhost, soit l'IP du serveur
     define("DBUSER", "root");       //utilisateur de la base (différent de PHPmyAdmin)
     define("DBPASS", "mysql");           //mot de passe
-    define("DBNAME", "eval");  //nom de la base de données
+    define("DBNAME", "elevent");  //nom de la base de données
  
     try {
         //connexion à la base avec la classe PDO et le dsn
