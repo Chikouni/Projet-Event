@@ -3,7 +3,7 @@ $title='Mon Compte';
 $description='';
 
 ?>
-<?php include_once("header.php"); ?>
+<?php include_once("./layouts/header.php");?>
 
 <main>
 <div class="container emp-profile pt-10">
@@ -31,7 +31,7 @@ $description='';
                                     <a class="nav-link active" id="home-tab" data-toggle="tab" href="#home" role="tab" aria-controls="home" aria-selected="true">About</a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link" id="profile-tab" data-toggle="tab" href="#profile" role="tab" aria-controls="profile" aria-selected="false">Timeline</a>
+                                    <a class="nav-link" id="profile-tab" data-toggle="tab" href="#profile" role="tab" aria-controls="profile" aria-selected="false">Historique des Evènements</a>
                                 </li>
                             </ul>
                         </div>
@@ -91,10 +91,10 @@ $description='';
                             <div class="tab-pane fade" id="profile" role="tabpanel" aria-labelledby="profile-tab">
                                         <div class="row">
                                             <div class="col-md-6">
-                                                <label>Experience</label>
+                                                <label>Nom de l'évènement</label>
                                             </div>
                                             <div class="col-md-6">
-                                                <p>Expert</p>
+                                            
                                             </div>
                                         </div>
                                         <div class="row">
@@ -143,4 +143,4 @@ $description='';
         </div>
 </main>
 
-<?php include_once("footer.php"); ?>
+<?php include_once("./layouts/footer.php"); ?>
