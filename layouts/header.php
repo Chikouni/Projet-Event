@@ -39,8 +39,8 @@
                     <li class="nav-item dropdown">
                         <a class="nav-link dropdown-toggle" href="" id="dropdown01" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Menu</a>
                         <div class="dropdown-menu" aria-labelledby="dropdown01">
-                            <a class="dropdown-item" href="account.php">Mon compte</a>
-                            <a class="dropdown-item" href="message.php">Messagerie</a>
+                            <a class="dropdown-item" href="/projet-wis/layouts/account.php">Mon compte</a>
+                            <a class="dropdown-item" href="/projet-wis/layouts/message.php">Messagerie</a>
                             <a class="dropdown-item" href="/projet-wis/layouts/logout.php">Déconnexion</a>
                         </div>
                     </li>
