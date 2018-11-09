@@ -1,8 +1,9 @@
 <?php 
 require("../assets/db.php");
 
-    $sql = "SELECT * FROM event ORDER BY eventId";
+    $sql = "SELECT * FROM event ORDER BY eventId WHERE memberId = :memberid";
     $stmt = $conn->prepare($sql);
+    $stmt->bindValue(':memberId', $_SESSION['id']);
     
     $stmt->execute();
     $result = $stmt->fetchAll();

@@ -21,7 +21,8 @@ session_start();
           $_SESSION['pseudo'] = $user->pseudo;
           $_SESSION['id'] = $user->memberId;
           $_SESSION['connect']=1;
-          $_SESSION['email']=$email;
+          $_SESSION['email']=$user->email;
+          $_SESSION['name']=$user->name;
           header('Location: ../index.php');
 
         }
